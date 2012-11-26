@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:webserviceQueueSample.xcodeproj">
+      location = "self:WebserviceQueueSample.xcodeproj">
    </FileRef>
 </Workspace>

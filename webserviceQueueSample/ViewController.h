@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  webserviceQueueSample
+//  WebserviceQueueSample
 //
 //  Created by Matthew Propst on 10/24/12.
 //  Copyright (c) 2012 http://prop.st All rights reserved.

@@ -21,14 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		960BB9D11638BCBD00A2F56B /* webserviceQueueSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webserviceQueueSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960BB9D11638BCBD00A2F56B /* WebserviceQueueSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebserviceQueueSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960BB9D51638BCBD00A2F56B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		960BB9D71638BCBD00A2F56B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		960BB9D91638BCBD00A2F56B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		960BB9DD1638BCBD00A2F56B /* webserviceQueueSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webserviceQueueSample-Info.plist"; sourceTree = "<group>"; };
+		960BB9DD1638BCBD00A2F56B /* WebserviceQueueSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebserviceQueueSample-Info.plist"; sourceTree = "<group>"; };
 		960BB9DF1638BCBD00A2F56B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		960BB9E11638BCBD00A2F56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		960BB9E31638BCBD00A2F56B /* webserviceQueueSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webserviceQueueSample-Prefix.pch"; sourceTree = "<group>"; };
+		960BB9E31638BCBD00A2F56B /* WebserviceQueueSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebserviceQueueSample-Prefix.pch"; sourceTree = "<group>"; };
 		960BB9E41638BCBD00A2F56B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		960BB9E51638BCBD00A2F56B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		960BB9E71638BCBD00A2F56B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			children = (
 				960BB9FB1638C10900A2F56B /* SystemConfiguration.framework */,
 				960BB9F91638BF5D00A2F56B /* QuartzCore.framework */,
-				960BB9DB1638BCBD00A2F56B /* webserviceQueueSample */,
+				960BB9DB1638BCBD00A2F56B /* WebserviceQueueSample */,
 				960BB9D41638BCBD00A2F56B /* Frameworks */,
 				960BB9D21638BCBD00A2F56B /* Products */,
 			);
@@ -70,7 +70,7 @@
 		960BB9D21638BCBD00A2F56B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				960BB9D11638BCBD00A2F56B /* webserviceQueueSample.app */,
+				960BB9D11638BCBD00A2F56B /* WebserviceQueueSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,7 +85,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		960BB9DB1638BCBD00A2F56B /* webserviceQueueSample */ = {
+		960BB9DB1638BCBD00A2F56B /* WebserviceQueueSample */ = {
 			isa = PBXGroup;
 			children = (
 				960BB9F21638BD9100A2F56B /* Reachability.h */,
@@ -97,16 +97,17 @@
 				960BB9EA1638BCBD00A2F56B /* ViewController.xib */,
 				960BB9DC1638BCBD00A2F56B /* Supporting Files */,
 			);
+			name = WebserviceQueueSample;
 			path = webserviceQueueSample;
 			sourceTree = "<group>";
 		};
 		960BB9DC1638BCBD00A2F56B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				960BB9DD1638BCBD00A2F56B /* webserviceQueueSample-Info.plist */,
+				960BB9DD1638BCBD00A2F56B /* WebserviceQueueSample-Info.plist */,
 				960BB9DE1638BCBD00A2F56B /* InfoPlist.strings */,
 				960BB9E11638BCBD00A2F56B /* main.m */,
-				960BB9E31638BCBD00A2F56B /* webserviceQueueSample-Prefix.pch */,
+				960BB9E31638BCBD00A2F56B /* WebserviceQueueSample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -114,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		960BB9D01638BCBD00A2F56B /* webserviceQueueSample */ = {
+		960BB9D01638BCBD00A2F56B /* WebserviceQueueSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 960BB9EF1638BCBD00A2F56B /* Build configuration list for PBXNativeTarget "webserviceQueueSample" */;
+			buildConfigurationList = 960BB9EF1638BCBD00A2F56B /* Build configuration list for PBXNativeTarget "WebserviceQueueSample" */;
 			buildPhases = (
 				960BB9CD1638BCBD00A2F56B /* Sources */,
 				960BB9CE1638BCBD00A2F56B /* Frameworks */,
@@ -126,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = webserviceQueueSample;
+			name = WebserviceQueueSample;
 			productName = webserviceQueueSample;
-			productReference = 960BB9D11638BCBD00A2F56B /* webserviceQueueSample.app */;
+			productReference = 960BB9D11638BCBD00A2F56B /* WebserviceQueueSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +140,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 960BB9CB1638BCBD00A2F56B /* Build configuration list for PBXProject "webserviceQueueSample" */;
+			buildConfigurationList = 960BB9CB1638BCBD00A2F56B /* Build configuration list for PBXProject "WebserviceQueueSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -151,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				960BB9D01638BCBD00A2F56B /* webserviceQueueSample */,
+				960BB9D01638BCBD00A2F56B /* WebserviceQueueSample */,
 			);
 		};
 /* End PBXProject section */
@@ -251,9 +252,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "webserviceQueueSample/webserviceQueueSample-Prefix.pch";
-				INFOPLIST_FILE = "webserviceQueueSample/webserviceQueueSample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "webserviceQueueSample/WebserviceQueueSample-Prefix.pch";
+				INFOPLIST_FILE = "webserviceQueueSample/WebserviceQueueSample-Info.plist";
+				PRODUCT_NAME = WebserviceQueueSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -262,9 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "webserviceQueueSample/webserviceQueueSample-Prefix.pch";
-				INFOPLIST_FILE = "webserviceQueueSample/webserviceQueueSample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "webserviceQueueSample/WebserviceQueueSample-Prefix.pch";
+				INFOPLIST_FILE = "webserviceQueueSample/WebserviceQueueSample-Info.plist";
+				PRODUCT_NAME = WebserviceQueueSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -272,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		960BB9CB1638BCBD00A2F56B /* Build configuration list for PBXProject "webserviceQueueSample" */ = {
+		960BB9CB1638BCBD00A2F56B /* Build configuration list for PBXProject "WebserviceQueueSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				960BB9ED1638BCBD00A2F56B /* Debug */,
@@ -281,13 +282,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		960BB9EF1638BCBD00A2F56B /* Build configuration list for PBXNativeTarget "webserviceQueueSample" */ = {
+		960BB9EF1638BCBD00A2F56B /* Build configuration list for PBXNativeTarget "WebserviceQueueSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				960BB9F01638BCBD00A2F56B /* Debug */,
 				960BB9F11638BCBD00A2F56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
